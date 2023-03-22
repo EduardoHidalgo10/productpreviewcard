@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+
+:root {
+   /* Primary colors */
+    --Darkcyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+
+    /* Neutral */
+
+    --Verydarkblue: hsl(212, 21%, 14%);
+    --Darkgrayishblue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+
+
+    /* fontSize */
+
+    --paragraph:14px;
+
+
+
+
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin:0;
+    background-color: var(--Cream);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.card {
+    width: 340px;
+    background: var(--White);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 10px;
+   
+    
+}
+
+.card-image {
+    width: fit-content;
+    
+}
+
+.card-image img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.card-content {
+    width: 90%;
+    margin-left: 15px;
+}
+
+.card-content p:nth-child(1) {
+    color: var(--Darkgrayishblue);
+}
+
+.card-content p:nth-child(2) {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+
+}
+
+.card-content p:nth-child(3) {
+    color: var(--Darkgrayishblue);
+
+}
+
+
+.price-container {
+    display: flex;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.price-container p:nth-child(1) {
+    color: var(--Darkcyan);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+
+}
+
+
+.price-container p:nth-child(2) {
+   margin-top: 41px;
+   margin-left: 25px;
+   text-decoration: line-through;
+   color: var(--Darkgrayishblue);
+
+}
+
+
+.button-container {
+    padding: 20px;
+}
+
+.btn {
+    background: var(--Darkcyan);
+    color: var(--White);
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.button-container img {
+    margin-right: 8px;
+}
+
+
+
+
+.attribution {
+    margin-top: 50px;
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
