@@ -158,13 +158,20 @@ body {
   
   @media (min-width:1001px) {
     .container {
+        width: 100%;
         display: flex;
         justify-content: center;
         flex-direction: row;
         margin-top: 50px;
-
+        
     }
-
+    
+        .image-desktop {
+            position: relative;
+            left: 5px;
+            
+        }
+    
     .card {
         height: 520px;
         margin-top: -2px;
@@ -182,12 +189,6 @@ body {
 
     
 
-
-    .image-desktop {
-        position: relative;
-        left: 5px;
-        
-    }
 
     .image-desktop img {
         width: fit-content;
